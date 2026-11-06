@@ -1,0 +1,17 @@
+[
+  { "id": "fl-bom-goi-0710", "name": "Mumbai → Goa, 07:10, flexible fare", "price": 120, "refundable": true, "category": "flight", "merchantId": "merchant:coastal-air" },
+  { "id": "fl-bom-goi-0945", "name": "Mumbai → Goa, 09:45, saver fare", "price": 85, "refundable": false, "category": "flight", "merchantId": "merchant:coastal-air" },
+  { "id": "fl-bom-goi-1230", "name": "Mumbai → Goa, 12:30, flexible fare", "price": 140, "refundable": true, "category": "flight", "merchantId": "merchant:coastal-air" },
+  { "id": "fl-bom-goi-1515", "name": "Mumbai → Goa, 15:15, saver fare", "price": 95, "refundable": false, "category": "flight", "merchantId": "merchant:coastal-air" },
+  { "id": "fl-bom-goi-1840", "name": "Mumbai → Goa, 18:40, flexible fare", "price": 160, "refundable": true, "category": "flight", "merchantId": "merchant:coastal-air" },
+  { "id": "fl-bom-goi-2105", "name": "Mumbai → Goa, 21:05, business", "price": 210, "refundable": true, "category": "flight", "merchantId": "merchant:coastal-air" },
+
+  { "id": "ht-palm-grove", "name": "Palm Grove Beach Resort, 2 nights, free cancellation", "price": 250, "refundable": true, "category": "hotel", "merchantId": "merchant:goa-stays" },
+  { "id": "ht-sunset-bay", "name": "Sunset Bay Hotel, 2 nights, non-refundable rate", "price": 220, "refundable": false, "category": "hotel", "merchantId": "merchant:goa-stays" },
+  { "id": "ht-casa-calangute", "name": "Casa Calangute, 2 nights, free cancellation", "price": 190, "refundable": true, "category": "hotel", "merchantId": "merchant:goa-stays" },
+  { "id": "ht-anjuna-hostel", "name": "Anjuna Backpackers, 2 nights, non-refundable", "price": 60, "refundable": false, "category": "hotel", "merchantId": "merchant:goa-stays" },
+  { "id": "ht-fort-view", "name": "Fort View Inn, 2 nights, free cancellation", "price": 210, "refundable": true, "category": "hotel", "merchantId": "merchant:goa-stays" },
+  { "id": "ht-baga-sands", "name": "Baga Sands, 2 nights, non-refundable rate", "price": 180, "refundable": false, "category": "hotel", "merchantId": "merchant:goa-stays" },
+  { "id": "ht-mandovi-heritage", "name": "Mandovi Heritage Villa, 2 nights, free cancellation", "price": 275, "refundable": true, "category": "hotel", "merchantId": "merchant:goa-stays" },
+  { "id": "ht-taj-cliff", "name": "Cliffside Luxury Suites, 2 nights, free cancellation", "price": 340, "refundable": true, "category": "hotel", "merchantId": "merchant:goa-stays" }
+]

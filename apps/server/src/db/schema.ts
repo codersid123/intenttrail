@@ -65,6 +65,18 @@ CREATE TABLE IF NOT EXISTS disputes (
   is_mock INTEGER DEFAULT 0
 );
 
+CREATE TABLE IF NOT EXISTS runs (
+  id TEXT PRIMARY KEY,
+  scenario TEXT NOT NULL,         -- 'A' | 'B' | 'C' | 'D'
+  payment_mode TEXT NOT NULL,     -- provider label, e.g. 'PayPal sandbox (vaulted wallet)'
+  fault_injection TEXT,           -- JSON, null for honest runs (kept OUT of the provenance log on purpose)
+  status TEXT NOT NULL,           -- 'running' | 'awaiting_approval' | 'completed' | 'failed'
+  approve_url TEXT,
+  result TEXT,                    -- JSON summary
+  created_at INTEGER NOT NULL,
+  updated_at INTEGER NOT NULL
+);
+
 CREATE INDEX IF NOT EXISTS idx_ledger_mid ON budget_ledger(mid);
 CREATE INDEX IF NOT EXISTS idx_prov_run ON provenance(run_id, seq);
 `;

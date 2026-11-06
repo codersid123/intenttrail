@@ -12,7 +12,10 @@
     "gemini:test": "npm run gemini:test -w apps/server",
     "typecheck": "npm run typecheck -w apps/server && npm run build -w apps/web",
     "test": "npm run test -w apps/server",
-    "demo:tree": "npm run demo:tree -w apps/server"
+    "demo:tree": "npm run demo:tree -w apps/server",
+    "scenario": "npm run scenario -w apps/server --",
+    "paypal:vault": "npm run paypal:vault -w apps/server",
+    "disputes": "npm run disputes -w apps/server --"
   },
   "devDependencies": {
     "concurrently": "^10.0.6",

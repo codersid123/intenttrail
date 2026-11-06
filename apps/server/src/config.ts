@@ -18,7 +18,7 @@ const EnvSchema = z.object({
   GOOGLE_GENERATIVE_AI_API_KEY: z
     .string()
     .min(1, "GOOGLE_GENERATIVE_AI_API_KEY is missing in .env"),
-  LLM_MODEL: z.string().default("gemini-3.8-flash"),
+  LLM_MODEL: z.string().default("gemini-3.5-flash-lite"),
   DATABASE_PATH: z.string().default("./intenttrail.db"),
   PORT: z.coerce.number().default(4000),
   WEB_ORIGIN: z.string().default("http://localhost:5173"),

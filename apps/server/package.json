@@ -10,7 +10,10 @@
     "gemini:test": "tsx src/scripts/gemini-test.ts",
     "typecheck": "tsc -p tsconfig.json",
     "test": "tsx --test --test-reporter=spec \"src/tests/*.test.ts\"",
-    "demo:tree": "tsx src/scripts/demo-tree.ts"
+    "demo:tree": "tsx src/scripts/demo-tree.ts",
+    "scenario": "tsx src/scripts/run-scenario.ts",
+    "paypal:vault": "tsx src/scripts/paypal-vault-setup.ts",
+    "disputes": "tsx src/scripts/disputes.ts"
   },
   "dependencies": {
     "@ai-sdk/google": "^4.0.112",
