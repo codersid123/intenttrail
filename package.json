@@ -10,7 +10,9 @@
     "dev": "concurrently -n server,web -c blue,green \"npm run dev -w apps/server\" \"npm run dev -w apps/web\"",
     "paypal:token": "npm run paypal:token -w apps/server",
     "gemini:test": "npm run gemini:test -w apps/server",
-    "typecheck": "npm run typecheck -w apps/server && npm run build -w apps/web"
+    "typecheck": "npm run typecheck -w apps/server && npm run build -w apps/web",
+    "test": "npm run test -w apps/server",
+    "demo:tree": "npm run demo:tree -w apps/server"
   },
   "devDependencies": {
     "concurrently": "^10.0.6",

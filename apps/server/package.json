@@ -8,7 +8,9 @@
     "start": "tsx src/index.ts",
     "paypal:token": "tsx src/scripts/paypal-token.ts",
     "gemini:test": "tsx src/scripts/gemini-test.ts",
-    "typecheck": "tsc -p tsconfig.json"
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "tsx --test --test-reporter=spec \"src/tests/*.test.ts\"",
+    "demo:tree": "tsx src/scripts/demo-tree.ts"
   },
   "dependencies": {
     "@ai-sdk/google": "^4.0.112",
